@@ -1,0 +1,19 @@
+.button {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100px;
+  height: 100px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #70a1ff;
+  cursor: pointer;
+  transition: 0.2s;
+  svg {
+    width: 40px;
+    height: 40px;
+    stroke: #fff;
+  }
+  &:hover {
+    background-color: #91b7fd;
+  }
+}
