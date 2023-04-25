@@ -11,7 +11,6 @@ const queryClient = new QueryClient({
 });
 
 function App() {
-  // console.log(process.env.REACT_APP_URL);
   return (
     <QueryClientProvider client={queryClient}>
       <RouterProvider router={createBrowserRouter(routes)} />
